@@ -10,6 +10,8 @@ namespace Hello_World
     {
         static void Main(string[] args)
         {
+                // the purpose of the program is to name the ghost that appears
+
             Console.WriteLine("Hello World!");
             Console.WriteLine(" .-.");
             Console.WriteLine(" (o o)");
@@ -21,6 +23,9 @@ namespace Hello_World
             Console.WriteLine("Please enter a name for the ghost.");
             string name = Console.ReadLine();
             Console.WriteLine($"The ghosts name is {name}");
+
+        // more comments
+            // .--.-.--___.._.--.__
 
             Console.ReadKey();
         }
